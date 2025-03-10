@@ -37,7 +37,7 @@
   </main>
 
   <footer>
-        <p>Contact us at <a href="mailto:info@webdevelopment.com">info@example.com</a></p>
+        <p>Contact us at <a href="mailto:info@webdevelopment.com">info@webdevelopment.com</a></p>
         <p>&copy; 2025 My Website</p>
   </footer>
 
