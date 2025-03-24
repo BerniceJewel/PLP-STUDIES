@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Firm Example</title>
+</head>
+<body>
+    <h1>Welcome to Aithera & Co. Investments</h1>
+
+    <h2>Our Services</h2>
+    <ol type="I">
+        <li>Financial Planning</li>
+        <li>Investment Management</li>
+        <li>Retirement Planning</li>
+        <li>Wealth Management</li>
+        <li>Portfolio Diversification</li>
+    </ol>
+
+    <h2>Invest in Your Future</h2>
+    <img src="https://images.pexels.com/photos/31220975/pexels-photo-31220975/free-photo-of-ethereum-coin-and-stock-market-graph-interaction.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Financial growth chart" width="500">
+    <p><small>Image source: <a href="https://www.pexels.com/" target="_blank">Pexels</a></small></p>
+
+    <h2>Our Investment Products</h2>
+    <table border="5">
+        <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Description</th>
+                <th>Risk Level</th>
+                <th>Potential Return</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Growth Stock Fund</td>
+                <td>Invests in high-growth potential stocks.</td>
+                <td>High</td>
+                <td>High</td>
+            </tr>
+            <tr>
+                <td>Balanced Mutual Fund</td>
+                <td>A mix of stocks and bonds for moderate growth and stability.</td>
+                <td>Moderate</td>
+                <td>Moderate</td>
+            </tr>
+            <tr>
+                <td>Fixed Income Bonds</td>
+                <td>Invests in government and corporate bonds for stable income.</td>
+                <td>Low</td>
+                <td>Low</td>
+            </tr>
+            <tr>
+                <td>Real Estate Portfolio</td>
+                <td>Diversified investments in commercial and residential properties.</td>
+                <td>Medium</td>
+                <td>Medium</td>
+            </tr>
+            <tr>
+                <td>Emerging Markets Fund</td>
+                <td>Invests in companies in developing economies.</td>
+                <td>High</td>
+                <td>Very High</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Contact Us for Investment Advice</h2>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Get in Touch</legend>
+
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div>
+                <label for="interest">Investment Interest:</label>
+                <select id="interest" name="interest">
+                    <option value="">-- Select --</option>
+                    <option value="stocks">Stocks</option>
+                    <option value="bonds">Bonds</option>
+                    <option value="mutual_funds">Mutual Funds</option>
+                    <option value="real_estate">Real Estate</option>
+                    <option value="retirement_planning">Retirement Planning</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+            <div>
+                <p>Investment Experience:</p>
+                <input type="radio" id="beginner" name="experience" value="beginner">
+                <label for="beginner">Beginner</label><br>
+                <input type="radio" id="intermediate" name="experience" value="intermediate">
+                <label for="intermediate">Intermediate</label><br>
+                <input type="radio" id="advanced" name="experience" value="advanced">
+                <label for="advanced">Advanced</label>
+            </div>
+
+            <div>
+                <p>Specific Areas of Interest:</p>
+                <input type="checkbox" id="financial_planning" name="inquiry" value="financial_planning">
+                <label for="financial_planning">Financial Planning</label><br>
+                <input type="checkbox" id="portfolio_review" name="inquiry" value="portfolio_review">
+                <label for="portfolio_review">Portfolio Review</label><br>
+                <input type="checkbox" id="investment_advice" name="inquiry" value="investment_advice">
+                <label for="investment_advice">Investment Advice</label>
+            </div>
+
+            <div>
+                <label for="message">Your Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="50" placeholder="Tell us more about your investment goals."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Submit Inquiry</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>
